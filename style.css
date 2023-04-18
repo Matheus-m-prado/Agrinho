@@ -13,7 +13,7 @@ body{
   box-sizing: border-box;
   background-color: var(--bg);
   font-family: 'Roboto', sans-serif;
-  height: 1000vh;
+  cursor: default;
 }
 h1{
   color: var(--text);
@@ -90,9 +90,10 @@ a:hover:after{
 /* MAIN START */
 .hero{
   display: flex;
-  background-image: url(assets/img/fundo2.png);
+  background-image: url(assets/img/fundo3.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 
   height: 89vh;
   text-align: center;
@@ -106,9 +107,17 @@ a:hover:after{
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--text);
+  color: #fff;
   text-decoration: underline;
   font-size: 24px;
   text-align: center; 
+}
+.hero-text h1{
+  color: #f9f9f9;
+}
+.hero-text p{
+  color: #353535;
+  text-decoration: underline #353535;
 }
 /* MAIN END */
 
