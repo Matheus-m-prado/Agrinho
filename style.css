@@ -11,6 +11,7 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+
   background-color: var(--bg);
   font-family: 'Roboto', sans-serif;
   cursor: default;
@@ -68,6 +69,7 @@ a:hover:after{
 }
 
 
+
 #menu {
   display: flex;
   list-style: none;
@@ -88,9 +90,13 @@ a:hover:after{
 
 
 /* MAIN START */
+#main{
+  text-align: center;
+}
+/* HERO START */
 .hero{
   display: flex;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(assets/img/fundo3.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),url(assets/img/fundo3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -111,6 +117,7 @@ a:hover:after{
   text-decoration: underline;
   font-size: 24px;
   text-align: center; 
+  transition: .3s;
 }
 .hero-text h1{
   color: #32CD32;
@@ -119,6 +126,21 @@ a:hover:after{
   color: #151515;
   text-decoration: underline #353535;
 }
+.hero-text:hover{
+  text-decoration: none;
+}
+/* HERO END */
+
+
+/* Resumo */
+#resumo{
+  padding: 0 22vw;
+  margin-top: 5vh;
+}
+
+
+
+
 /* MAIN END */
 
 
