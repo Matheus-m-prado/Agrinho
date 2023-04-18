@@ -13,6 +13,7 @@ body{
   box-sizing: border-box;
   background-color: var(--bg);
   font-family: 'Roboto', sans-serif;
+  height: 1000vh;
 }
 h1{
   color: var(--text);
@@ -87,7 +88,28 @@ a:hover:after{
 
 
 /* MAIN START */
+.hero{
+  display: flex;
+  background-image: url(assets/img/fundo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 
+  height: 89vh;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--text);
+  text-decoration: underline;
+  font-size: 24px;
+  text-align: center; 
+}
 /* MAIN END */
 
 
