@@ -135,10 +135,10 @@ a:hover:after{
 
 .card{
   background-color: var(--card);
-  padding: 15px 35px;
+  padding: 15px 55px;
   border-radius: 40px;
   margin: 0 20px;
-  max-width: 25vw;
+  max-width: 20vw;
   text-align: center;
   z-index: 10;
 }
