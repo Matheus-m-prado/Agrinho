@@ -1,3 +1,0 @@
-1 - 11 => Arquivos base para o site.
-13 - 26 => Criação do menu.
-30 - 35 => Hero (imagem com texto em cima).
