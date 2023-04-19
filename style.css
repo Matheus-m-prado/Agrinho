@@ -126,7 +126,7 @@ a:hover:after{
 
 
 
-
+/* CARDS START */
 #cards{
   display: flex;
   justify-content: space-around;
@@ -148,6 +148,10 @@ a:hover:after{
   text-decoration: underline 3px;
   font-size: 1.5rem;
 }
+/* CARDS END */
+
+
+
 /* MAIN END */
 
 
