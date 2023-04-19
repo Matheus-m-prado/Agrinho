@@ -12,6 +12,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   cursor: default;
+  background-color: var(--bg);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -41,6 +42,9 @@ a:hover:after{
   width: 100%;
 }
 
+.hidden{
+  display: none;
+}
 
 /* INICIO MENU */
 #logo {
@@ -135,22 +139,23 @@ a:hover:after{
 
 .card{
   background-color: var(--card);
+  box-shadow: 10px 13px 43px 4px #00000067;
   padding: 15px 55px;
   border-radius: 40px;
   font-size: .8rem;
-  max-width: 20vw;
-  max-height: 35vh;
+  width: 20vw;
+  max-width: 65vw;
+  height: 35vh;
   text-align: center;
   z-index: 10;
 }
 
 .card i{
   color: var(--verde);
-  text-decoration: underline 3px;
+  border-bottom: 2px solid var(--verde);
   font-size: 1.5rem;
 }
 /* CARDS END */
-
 
 
 /* MAIN END */
@@ -219,5 +224,26 @@ a:hover:after{
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+
+
+
+
+  #cards{
+    flex-direction: column;
+    margin-left: 7vw;
+  }
+  .card{
+    width: 60vw;
+    height: 20vh;
+    margin-bottom: 1vh;
+  }
+  .card:first-child{
+    margin-top: 18vh;
+  }
+}
+@media (max-width: 450px){
+  .card{
+    height: 30vh;
   }
 }
