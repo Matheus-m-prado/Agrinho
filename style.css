@@ -3,7 +3,7 @@ html{
   --bg: #F8F8F8;
   --menu: #f8f8f8;
   --text: #151515;
-  --card: #101010;
+  --card: #FAF9F6;
   --verde: #28ac64;
 }
 
@@ -105,13 +105,48 @@ a:hover:after{
   transform: translate(-50%, -50%);
   color: #fff;
 }
-.hero-text h1{
-  color: #32CD32  ;
+.hero-text h1,
+.hero-text h2{
+  color: #32CD32;
   font-size: 2.5rem;
 }
+.hero-text h2{
+  color: white;
+  margin-top: -5vh;
+}
+.hero-text p{
+  margin-top: -2.5vh;
+  font-size: 0.6rem;
+}
 .hero-text span{
-  text-decoration: underline 3px #1d7c1d;
-  
+  text-decoration: underline 3px #249724;
+
+}
+
+
+
+
+
+#cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  background-color: var(--card);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 20px;
+  margin-top: -20vh;
+  max-width: 40vw;
+  text-align: center;
+  z-index: 10;
+}
+
+.card i{
+  color: var(--verde);
+  text-decoration: underline 3px;
+  font-size: 1.5rem;
 }
 /* MAIN END */
 
