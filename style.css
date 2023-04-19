@@ -226,7 +226,9 @@ a:hover:after{
     top: -7px;
   }
 
-
+  #menu{
+    background: #ebebebe7;
+  }
 
 
   #cards{
@@ -242,6 +244,8 @@ a:hover:after{
     margin-top: 18vh;
   }
 }
+
+
 @media (max-width: 450px){
   .card{
     height: 30vh;
