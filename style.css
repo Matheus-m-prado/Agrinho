@@ -130,15 +130,15 @@ a:hover:after{
 #cards{
   display: flex;
   justify-content: space-around;
+  margin-top: -15vh;
 }
 
 .card{
   background-color: var(--card);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 15px 35px;
+  border-radius: 40px;
   margin: 0 20px;
-  margin-top: -20vh;
-  max-width: 40vw;
+  max-width: 25vw;
   text-align: center;
   z-index: 10;
 }
