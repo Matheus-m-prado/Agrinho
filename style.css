@@ -152,7 +152,6 @@ a:hover:after{
 
 .card i{
   color: var(--verde);
-  border-bottom: 2px solid var(--verde);
   font-size: 1.5rem;
 }
 /* CARDS END */
@@ -239,9 +238,10 @@ a:hover:after{
     width: 60vw;
     height: 20vh;
     margin-bottom: 1vh;
+    margin-left: -1vh;
   }
   .card:first-child{
-    margin-top: 18vh;
+    margin-top: 8vh;
   }
 }
 
@@ -249,5 +249,6 @@ a:hover:after{
 @media (max-width: 450px){
   .card{
     height: 30vh;
+    margin-left: -2.3vh;
   }
 }
