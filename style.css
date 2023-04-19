@@ -233,7 +233,7 @@ a:hover:after{
 
   #cards{
     flex-direction: column;
-    margin-left: 7vw;
+    margin-left: 8vw;
   }
   .card{
     width: 60vw;
