@@ -143,10 +143,11 @@ a:hover:after{
   padding: 15px 55px;
   border-radius: 40px;
   font-size: .8rem;
-  width:20vw;
+  width: 20vw;
   max-width: 65vw;
   height: 45vh;
   text-align: center;
+  margin-top: 2vh;
   z-index: 10;
 }
 
