@@ -118,7 +118,7 @@ h1{
 }
 .hero-text h2{
   color: white;
-  margin-top: -2vh;
+  margin-top: -6vh;
 }
 .hero-text p{
   margin-top: -2.5vh;
@@ -126,7 +126,6 @@ h1{
 }
 .hero-text span{
   text-decoration: underline 3px #249724;
-
 }
 
 
@@ -289,9 +288,7 @@ h1{
     background: #ebebebe7;
   }
 
-  .hero-text h2{
-    margin-top: -5vh;
-  }
+  
 
 
   #cards{
