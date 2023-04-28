@@ -147,7 +147,7 @@ h1{
   font-size: .8rem;
   width: 20vw;
   max-width: 65vw;
-  height: 45vh;
+  height: 50vh;
   text-align: center;
   margin-top: 2vh;
   z-index: 10;
@@ -161,13 +161,47 @@ h1{
 
 /* SUSTENTABILIDADE  INÍCIO*/
 #sustentabilidade{
+  display: flex;
+  flex-direction: row-reverse;
   margin-top: 30vh;
   color: var(--text);
+  text-align: center;
+  justify-content: space-evenly;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 #sustentabilidade span{
   color: var(--verde);
+  text-decoration: underline;
+}
+#sustentabilidade img{
+  width: 22vw;
+}
+#sustentabilidade .txt{
+  flex-direction: column;
+  margin-top: 3vh;
+  padding-right: 5vw;
 }
 /* SUSTENTABILIDADE FINAL */
+
+/* PADRÃO DE BOTÃO COMEÇO*/
+.btn{
+  padding: 10px;
+  border: none;
+  font-size: 12pt;
+  color: var(--text);
+  background-color: var(--verde);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.226);
+  transition: all .5s ease;
+}
+.btn:hover{
+  background-color: #28ac648e;
+  scale: 1.1;
+  box-shadow: none;
+}
+/* PADRÃO DE BOTÃO FINAL*/
+
 
 
 
