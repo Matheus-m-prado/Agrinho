@@ -170,9 +170,13 @@ h1{
   margin-left: 20vw;
   margin-right: 20vw;
 }
+#sustentabilidade h2{
+  font-size: 2rem;
+}
 #sustentabilidade span{
   color: var(--verde);
   text-decoration: underline;
+  font-size: 2.2rem;
 }
 #sustentabilidade img{
   width: 22vw;
@@ -285,6 +289,10 @@ h1{
     background: #ebebebe7;
   }
 
+  .hero-text h2{
+    margin-top: -5vh;
+  }
+
 
   #cards{
     position: relative;
@@ -298,8 +306,26 @@ h1{
   }
   .card{
     width: 60vw;
-    height: 40vh;
+    height: 45vh;
     margin-bottom: 1vh;
+  }
+
+
+  #sustentabilidade{
+    margin-top: 5vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;  
+    margin-left: 1vw;
+    margin-right: 1vw;  
+  }
+  #sustentabilidade img{
+    display: none;
   }
 }
 
