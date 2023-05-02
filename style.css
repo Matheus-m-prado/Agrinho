@@ -345,7 +345,105 @@ h1{
 
 
 
+main.cards {
+  margin-top: -15vh;
+  display: flex;
+  padding: 32px;
+  justify-content: space-around;
+}
 
+main.cards section.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--card);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+  border-radius: 50px;
+
+}
+
+main.cards section.card:first-child {
+  margin-left: 0;
+}
+
+main.cards section.card .icon {
+  width: 64px;
+  height: 64px;
+}
+
+main.cards section.card i {
+  width: 100%;
+}
+
+main.cards section.card h3 {
+  font-size: 140%;
+  margin: -10px 0px 15px 0px;
+}
+
+main.cards section.card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 90%;
+  margin-bottom: 16px;
+}
+
+main.cards section.card button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px 0;
+}
+
+main.cards section.card button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    font-size: 8pt;
+    color: var(--text);
+    background-color: var(--verde);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.226);
+    transition: all .5s ease;
+  }
+
+  main.cards section.card.contact button:hover{
+    background-color: #28ac648e;
+    scale: 1.1;
+    box-shadow: none;
+}
+
+main.cards section.card{
+  box-shadow: 10px 13px 43px 4px #00000067;
+}
+
+@media screen and (max-width: 720px) {
+  main.cards {
+      flex-direction: column;
+  }
+
+  main.cards section.card {
+      margin-left: 0;
+      margin-bottom: 32px;
+  }
+
+  main.cards section.card:last-child {
+      margin-bottom: 0;
+  }
+
+  main.cards section.card button {
+      font-size: 70%;
+  }
+
+}
 
 
 
