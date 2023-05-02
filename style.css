@@ -61,7 +61,7 @@ h1{
   align-items: center;
   justify-content: space-between;
   background: var(--menu);
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0,0,0,0.12);
 
   z-index: 999;
   position: sticky;
@@ -166,8 +166,7 @@ h1{
   color: var(--text);
   text-align: center;
   justify-content: space-evenly;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  padding: 0 20vw;
 }
 #sustentabilidade h2{
   font-size: 2rem;
@@ -189,6 +188,7 @@ h1{
 
 /* PADRÃO DE BOTÃO COMEÇO*/
 .btn{
+  cursor: pointer;
   padding: 10px;
   border: none;
   font-size: 12pt;
@@ -202,6 +202,23 @@ h1{
   background-color: #28ac648e;
   scale: 1.1;
   box-shadow: none;
+}
+
+
+
+.btn2{
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid var(--verde);
+  color: #104e2b;
+  font-size: 12pt;
+  border-radius: 20px;
+  transition: all .5s ease;
+}
+.btn2:hover{
+  scale: 1.1;
+  color: #000;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.226);
 }
 /* PADRÃO DE BOTÃO FINAL*/
 
@@ -303,7 +320,7 @@ h1{
   }
   .card{
     width: 60vw;
-    height: 45vh;
+    height: 43vh;
     margin-bottom: 1vh;
   }
 
@@ -311,15 +328,13 @@ h1{
   #sustentabilidade{
     margin-top: 5vh;
     position: relative;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;  
-    margin-left: 1vw;
-    margin-right: 1vw;  
+    padding: 0 1vw; 
   }
   #sustentabilidade img{
     display: none;
