@@ -234,6 +234,7 @@ h1{
   text-decoration: none;
   font-weight: bold;
   transition: all .5s ease;
+  border: none;
 }
 .btn3:hover{
   background-color: #d6d6d6;
