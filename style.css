@@ -18,6 +18,7 @@ body{
   cursor: default;
   background-color: var(--bg);
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 h1{
@@ -250,7 +251,7 @@ h1{
 }
 #info-d img{
   width: 550px;
-  height: 80vh;
+  height: 105vh;
 }
 #info-d p{
   text-align: left;
@@ -292,6 +293,17 @@ h1{
   padding-left: 6vw;
 }
 
+
+.grafico{
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  text-align: center;
+  max-height: 30vh;
+}
+.grafico #myChart{
+  overflow: hidden;
+}
 /* MAIN END */
 
 /* FOOTER START */
@@ -430,6 +442,7 @@ h1{
     flex-direction: column;
     text-align: left;
   }
+
 }
 
 
